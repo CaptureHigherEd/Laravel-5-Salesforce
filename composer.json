@@ -18,11 +18,11 @@
   "require": {
     "php": "^7.3.14",
     "davispeixoto/force-dot-com-toolkit-for-php": "1.0.*",
-    "illuminate/support": "~7.0",
-    "vlucas/phpdotenv": "~4.0"
+    "illuminate/support": "~8.0",
+    "vlucas/phpdotenv": "~5.0"
   },
   "require-dev": {
-    "laravel/framework": "~7.0",
+    "laravel/framework": "~8.0",
     "phpunit/phpunit": "~8.0"
   },
   "autoload": {
