@@ -16,18 +16,19 @@
     }
   ],
   "require": {
-    "php": ">=7.3.14|<=8.1",
+    "php": "^8.0",
     "davispeixoto/force-dot-com-toolkit-for-php": "^1.0",
-    "illuminate/support": "^9.0",
+    "illuminate/support": "^9.0|^10.0|^11.0",
     "vlucas/phpdotenv": "^5.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.0"
+    "phpunit/phpunit": "^9.0|^10.5"
   },
   "autoload": {
     "psr-4": {
       "Davispeixoto\\Laravel5Salesforce\\": "src/Davispeixoto/Laravel5Salesforce"
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
